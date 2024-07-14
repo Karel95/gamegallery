@@ -1,0 +1,75 @@
+body {
+    background-image: url('fondo.jpg'); /* Ruta a tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#board, .boardInfo {
+    max-width: 500px;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#start, .boardInfo {
+    font-size: 25px;
+}
+
+#gameOver {
+    display: none;
+    color: white;
+}
+
+.boardInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#start {
+    width: 100px;
+    margin-bottom: 10px;
+    background-color: rgba(36, 240, 63, 0.25); /* Fondo semitransparente para mejor legibilidad */
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+#start:hover {
+    background-color: rgba(36, 240, 63, 0.75); /* Fondo semitransparente para mejor legibilidad */
+    border: 1px solid;
+    border-radius: 3px;
+    color: white;
+}
+
+#scoreBoard {
+    display: inline-flex;
+}
+
+.square {
+    aspect-ratio: 1;
+    margin: 1px;
+    border-radius: 3px;
+}
+
+.emptySquare {
+    background-color: rgba(59, 154, 184, 0.25); /* Fondo semitransparente para mejor legibilidad */
+}
+
+.snakeSquare {
+    background-color: #ccf47f;
+}
+
+.foodSquare {
+    background-color: #f35a69;
+}
+
+
