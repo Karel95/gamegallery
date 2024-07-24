@@ -14,21 +14,21 @@ body {
     position: fixed;
   }
 
-  /* carouse */
-  /* #carousel {
-    height: 100vh;
-  } */
+  /* carouseL */
+  .carousel-section {
+    padding: 75px 25px 50px 25px;
+  }
 
   /* cards */
   .cards-container {
-    margin: 10px;
+    margin: 20px;
   } 
   .card {
     margin: 20px;
     padding: 20px;
   }
   #cards {
-    margin-top: 10px;
+    margin: 20px;
   }
 
 /* gallery */
