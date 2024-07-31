@@ -19,6 +19,14 @@ body {
     padding: 75px 25px 50px 25px;
   }
 
+  /* offcanvas */
+  .offcanvasButton {
+    position: fixed;
+    z-index: 2;
+    margin-top: 100px;
+    margin-left: 35px;
+  }
+
   /* cards */
   .cards-container {
     margin: 20px;
